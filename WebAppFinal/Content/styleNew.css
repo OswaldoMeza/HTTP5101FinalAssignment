@@ -1,0 +1,192 @@
+﻿
+    /*GENERAL CSS*/
+    .cwidth
+
+{
+    margin: 0 0px 0 0px;
+    display: flex;
+}
+.body-width {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+header, footer {
+    background: #dedede;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.button {
+    margin: 10px 10px 20px 10px;
+    background-color: #e9d898;
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px 10px 10px;
+}
+.button:hover{
+    background-color:darkslategrey;
+    color: white;
+}
+
+.edit-buttons{
+    float: right;
+}
+
+.logo {
+    height: 130px;
+    width: 130px;
+    padding-left: 60px;
+    padding-top: 10px;
+    flex-direction: row;
+}
+
+#school-name {
+    font-size: 3em;
+    margin: 40px 0 0 20px;
+    flex-direction: row;
+}
+#main-navigation {
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+  }
+    #main-navigation ul {
+        align-items: center;
+        margin: 0;
+        padding: 1em 0;
+        font-size: 1em;
+    }
+  #main-navigation li {
+
+    display:inline-block;
+    list-style-type:none;
+    height: 70px;
+    margin-right:1.5em;
+    border:solid;
+    border-width: 0 3px 0 0;
+    padding: 0 20px 0 0;
+
+  }
+  #main-navigation li:first-child {
+    margin-left:1.5em;
+  }
+    #main-navigation a {
+        text-decoration: none;
+        color: black;
+    }
+#main-navigation a:hover {
+    color: blue;
+}
+
+#foot-navigation {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 0 0 60px;
+}
+
+#foot-navigation ul {
+    align-items: center;
+    margin: 0;
+    padding: 1em 0;
+    font-size: 1em;
+}
+
+#foot-navigation li {
+    display: inline-block;
+    list-style-type: none;
+    height: 70px;
+    margin-right: 1.5em;
+    border: solid;
+    border-width: 0 3px 0 0;
+    padding: 0 20px 0 0;
+}
+
+#foot-navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+#foot-navigation a:hover {
+    color: blue;
+} 
+
+.hidden {
+    display: none;
+}
+.banner{
+    width: 100%;
+}
+
+
+/*CSS FOR TABLE-LIKE STYLING*/
+
+/*STUDENTS*/
+
+
+#students_result {width:auto;}
+.listitem {
+    background: #dedede;
+    padding: 12px 5%;
+    width: 90%;
+    overflow: hidden;
+}
+
+.listitem:after{clear:both;}
+.listitem:nth-child(2n){background: white;}
+.listitem:hover {background: #e9d898;}
+/*
+    sandbox.bittsdevelopment.com/colcalc
+    columns : 4
+    gutter/column ratio : 0.2
+*/
+.col4, .col4last {
+    
+    float: left;
+    width: 21.73%;
+    margin-right: 4.34%;
+}
+.col4last{margin-right:0%;}
+
+/*TEACHERS*/
+
+#teachers_result {
+    width: 100%;
+}
+/*
+Each column should be 17.48% wide with a gutter space of 3.14%
+*/
+
+.col5 {
+    float: left;
+    width: 17.48%;    
+    margin-right: 3.14%;
+}
+
+.col5last {
+    float: left;
+    width: 17.48%;    
+    margin-right: 0;
+}
+.col2, .col2last {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
+
+.col2last {
+    margin-right: 0%;
+}
+/*http://sandbox.bittsdevelopment.com/colcalc/*/
+
+
+
+
+
